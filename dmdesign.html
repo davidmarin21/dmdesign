@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DMDesign — Professional Web Design</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+
+<script src="Js.js" defer></script>
+
+
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
+
+<nav id="nav">
+  <a href="#" class="nav-logo">DM<span>Design</span></a>
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="#services"      data-en="Services"    data-es="Servicios">Services</a></li>
+      <li><a href="#portfolio"     data-en="Work"        data-es="Portafolio">Work</a></li>
+      <li><a href="#testimonials"  data-en="Reviews"     data-es="Reseñas">Reviews</a></li>
+      <li><a href="#contact"       data-en="Contact"     data-es="Contacto">Contact</a></li>
+    </ul>
+    <div class="lang-toggle">
+      <button class="lang-btn active" id="btn-en" onclick="setLang('en')">EN</button>
+      <button class="lang-btn"        id="btn-es" onclick="setLang('es')">ES</button>
+    </div>
+    <a href="#contact" class="nav-cta" data-en="Get a quote" data-es="Cotizar">Get a quote</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-accent-orb"></div>
+  <div class="hero-tag" data-en="" data-es=""></div>
+  <h1 class="hero-headline reveal">
+    <span data-en="Websites that"    data-es="Páginas web que">Websites that</span><br>
+    <span class="outline" data-en="make your"   data-es="hacen crecer">make your</span><br>
+    <span class="accent"  data-en="business grow." data-es="tu negocio.">business grow.</span>
+  </h1>
+  <div class="hero-bottom reveal reveal-delay-2">
+    <div>
+      <p class="hero-sub" data-en="Professional websites for <strong>US and Latin American businesses</strong>, designed with cutting-edge AI tools. Delivered in days, not weeks." data-es="Páginas web profesionales para <strong>negocios en EE.UU. y América Latina</strong>, creadas con herramientas de IA de vanguardia. Listas en días, no semanas.">Professional websites for <strong>US and Latin American businesses</strong>, designed with cutting-edge AI tools. Delivered in days, not weeks.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary" data-en="Start your project →" data-es="Empieza tu proyecto →">Start your project →</a>
+        <a href="#portfolio" class="btn-ghost"  data-en="See our work ↓"       data-es="Ver nuestro trabajo ↓">See our work ↓</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num">50+</div>
+        <div class="stat-label" data-en="Sites Delivered" data-es="Sitios Entregados">Sites Delivered</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">5 <span data-en="days" data-es="días">days</span></div>
+        <div class="stat-label" data-en="Avg. Delivery" data-es="Entrega Promedio">Avg. Delivery</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">$300</div>
+        <div class="stat-label" data-en="Starting From" data-es="Desde">Starting From</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <div class="marquee-item" data-en="Landing Pages"         data-es="Landing Pages">Landing Pages</div>
+    <div class="marquee-item" data-en="Business Websites"     data-es="Sitios Corporativos">Business Websites</div>
+    <div class="marquee-item" data-en="Restaurant Sites"      data-es="Sitios para Restaurantes">Restaurant Sites</div>
+    <div class="marquee-item" data-en="E-commerce"            data-es="Tiendas Online">E-commerce</div>
+    <div class="marquee-item" data-en="Portfolio Sites"       data-es="Portafolios">Portfolio Sites</div>
+    <div class="marquee-item" data-en="Professional Services" data-es="Servicios Profesionales">Professional Services</div>
+    <div class="marquee-item" data-en="Medical Practices"     data-es="Clínicas y Médicos">Medical Practices</div>
+    <div class="marquee-item" data-en="Local Businesses"      data-es="Negocios Locales">Local Businesses</div>
+    <div class="marquee-item" data-en="Real Estate"           data-es="Inmobiliarias">Real Estate</div>
+    <div class="marquee-item" data-en="Landing Pages"         data-es="Landing Pages">Landing Pages</div>
+    <div class="marquee-item" data-en="Business Websites"     data-es="Sitios Corporativos">Business Websites</div>
+    <div class="marquee-item" data-en="Restaurant Sites"      data-es="Sitios para Restaurantes">Restaurant Sites</div>
+    <div class="marquee-item" data-en="E-commerce"            data-es="Tiendas Online">E-commerce</div>
+    <div class="marquee-item" data-en="Portfolio Sites"       data-es="Portafolios">Portfolio Sites</div>
+    <div class="marquee-item" data-en="Professional Services" data-es="Servicios Profesionales">Professional Services</div>
+    <div class="marquee-item" data-en="Medical Practices"     data-es="Clínicas y Médicos">Medical Practices</div>
+    <div class="marquee-item" data-en="Local Businesses"      data-es="Negocios Locales">Local Businesses</div>
+    <div class="marquee-item" data-en="Real Estate"           data-es="Inmobiliarias">Real Estate</div>
+  </div>
+</div>
+
+<!-- PROCESS -->
+<div class="process-strip">
+  <div class="process-step reveal">
+    <div class="process-num">01</div>
+    <div class="process-step-title" data-en="Discovery Call"   data-es="Llamada Inicial">Discovery Call</div>
+    <div class="process-desc"       data-en="30-min call to understand your business, goals, and brand identity." data-es="Llamada de 30 min para entender tu negocio, objetivos e identidad de marca.">30-min call to understand your business, goals, and brand identity.</div>
+  </div>
+  <div class="process-step reveal reveal-delay-1">
+    <div class="process-num">02</div>
+    <div class="process-step-title" data-en="Design & Build"   data-es="Diseño y Desarrollo">Design & Build</div>
+    <div class="process-desc"       data-en="We design and code your site using advanced AI tools for speed and quality." data-es="Diseñamos y desarrollamos tu sitio con herramientas de IA para máxima velocidad y calidad.">We design and code your site using advanced AI tools for speed and quality.</div>
+  </div>
+  <div class="process-step reveal reveal-delay-2">
+    <div class="process-num">03</div>
+    <div class="process-step-title" data-en="Review"           data-es="Revisión">Review</div>
+    <div class="process-desc"       data-en="You review the site and we apply any revisions you need." data-es="Revisas el sitio y aplicamos todos los cambios que necesites.">You review the site and we apply any revisions you need.</div>
+  </div>
+  <div class="process-step reveal reveal-delay-3">
+    <div class="process-num">04</div>
+    <div class="process-step-title" data-en="Launch"           data-es="Lanzamiento">Launch</div>
+    <div class="process-desc"       data-en="Your site goes live, ready to bring in customers from day one." data-es="Tu sitio sale en vivo, listo para atraer clientes desde el primer día.">Your site goes live, ready to bring in customers from day one.</div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="services-header">
+    <div>
+      <div class="section-label reveal" data-en="Services & Pricing" data-es="Servicios y Precios">Services & Pricing</div>
+      <h2 class="section-title reveal reveal-delay-1">
+        <span data-en="Simple, "     data-es="Precios ">Simple, </span><span class="accent" data-en="transparent" data-es="simples y">transparent</span><br>
+        <span data-en="pricing."     data-es="transparentes.">pricing.</span>
+      </h2>
+    </div>
+    <p class="services-desc reveal" data-en="Every package includes a fully responsive, modern website ready to attract clients. No hidden fees. Delivered fast." data-es="Cada paquete incluye un sitio web moderno y responsive listo para atraer clientes. Sin costos ocultos. Entregado rápido.">Every package includes a fully responsive, modern website ready to attract clients. No hidden fees. Delivered fast.</p>
+  </div>
+  <div class="pricing-grid reveal">
+    <div class="pricing-card">
+      <div class="pricing-tier"      data-en="Starter"       data-es="Básico">Starter</div>
+      <div class="pricing-price"><sup>$</sup>300</div>
+      <div class="pricing-from"      data-en="One-time payment" data-es="Pago único">One-time payment</div>
+      <div class="pricing-name"      data-en="Landing Page"  data-es="Landing Page">Landing Page</div>
+      <div class="pricing-desc-text" data-en="Perfect for showcasing one service or product and capturing leads." data-es="Ideal para destacar un servicio o producto y capturar clientes potenciales.">Perfect for showcasing one service or product and capturing leads.</div>
+      <ul class="pricing-features">
+        <li data-en="1 page, fully responsive"             data-es="1 página, totalmente responsive">1 page, fully responsive</li>
+        <li data-en="Contact form or WhatsApp button"      data-es="Formulario de contacto o botón WhatsApp">Contact form or WhatsApp button</li>
+        <li data-en="Basic SEO setup"                      data-es="SEO básico configurado">Basic SEO setup</li>
+        <li data-en="Delivery in 2–3 days"                 data-es="Entrega en 2–3 días">Delivery in 2–3 days</li>
+        <li data-en="1 round of revisions"                 data-es="1 ronda de revisiones">1 round of revisions</li>
+      </ul>
+      <a href="#contact" class="btn-card" data-en="Get started" data-es="Empezar">Get started</a>
+    </div>
+    <div class="pricing-card featured">
+      <span class="pricing-badge"    data-en="Most popular"  data-es="Más popular">Most popular</span>
+      <div class="pricing-tier"      data-en="Standard"      data-es="Estándar">Standard</div>
+      <div class="pricing-price"><sup>$</sup>550</div>
+      <div class="pricing-from"      data-en="One-time payment" data-es="Pago único">One-time payment</div>
+      <div class="pricing-name"      data-en="Business Website" data-es="Sitio de Negocio">Business Website</div>
+      <div class="pricing-desc-text" data-en="A complete site to present your business professionally and generate more customers." data-es="Un sitio completo para presentar tu negocio profesionalmente y generar más clientes.">A complete site to present your business professionally and generate more customers.</div>
+      <ul class="pricing-features">
+        <li data-en="4–5 pages (Home, About, Services, Contact)" data-es="4–5 páginas (Inicio, Nosotros, Servicios, Contacto)">4–5 pages (Home, About, Services, Contact)</li>
+        <li data-en="Professional copywriting"             data-es="Redacción profesional de textos">Professional copywriting</li>
+        <li data-en="SEO optimized"                        data-es="Optimizado para SEO">SEO optimized</li>
+        <li data-en="Delivery in 4–5 days"                 data-es="Entrega en 4–5 días">Delivery in 4–5 days</li>
+        <li data-en="2 rounds of revisions"                data-es="2 rondas de revisiones">2 rounds of revisions</li>
+      </ul>
+      <a href="#contact" class="btn-card filled" data-en="Get started" data-es="Empezar">Get started</a>
+    </div>
+    <div class="pricing-card">
+      <div class="pricing-tier"      data-en="Premium"       data-es="Premium">Premium</div>
+      <div class="pricing-price"><sup>$</sup>800</div>
+      <div class="pricing-from"      data-en="One-time payment" data-es="Pago único">One-time payment</div>
+      <div class="pricing-name"      data-en="Full Website + Features" data-es="Sitio Completo + Funciones">Full Website + Features</div>
+      <div class="pricing-desc-text" data-en="Advanced site with extra functionality to help your business stand out and scale." data-es="Sitio avanzado con funcionalidades extra para destacar y escalar tu negocio.">Advanced site with extra functionality to help your business stand out and scale.</div>
+      <ul class="pricing-features">
+        <li data-en="6–8 pages"                            data-es="6–8 páginas">6–8 pages</li>
+        <li data-en="Blog, gallery, or product catalog"    data-es="Blog, galería o catálogo de productos">Blog, gallery, or product catalog</li>
+        <li data-en="Advanced animations"                  data-es="Animaciones avanzadas">Advanced animations</li>
+        <li data-en="Delivery in 7 days"                   data-es="Entrega en 7 días">Delivery in 7 days</li>
+        <li data-en="Unlimited revisions (14 days)"        data-es="Revisiones ilimitadas (14 días)">Unlimited revisions (14 days)</li>
+      </ul>
+      <a href="#contact" class="btn-card" data-en="Get started" data-es="Empezar">Get started</a>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+  <div class="section-label reveal" data-en="Portfolio"      data-es="Portafolio">Portfolio</div>
+  <h2 class="section-title reveal reveal-delay-1">
+    <span data-en="Recent " data-es="Trabajo ">Recent </span><span class="accent" data-en="work." data-es="reciente.">work.</span>
+  </h2>
+  <div class="portfolio-grid">
+    <div class="portfolio-item reveal">
+      <div class="portfolio-thumb"><div class="port-preview port-1">MR</div></div>
+      <div class="portfolio-info">
+        <div class="portfolio-industry" data-en="Restaurant"   data-es="Restaurante">Restaurant</div>
+        <div class="portfolio-title">Mario's Ristorante</div>
+        <div class="portfolio-sub"      data-en="Full website · $550" data-es="Sitio completo · $550">Full website · $550</div>
+      </div>
+    </div>
+    <div class="portfolio-item reveal reveal-delay-1">
+      <div class="portfolio-thumb"><div class="port-preview port-2">HC</div></div>
+      <div class="portfolio-info">
+        <div class="portfolio-industry" data-en="Construction" data-es="Construcción">Construction</div>
+        <div class="portfolio-title">Hernandez Contracting</div>
+        <div class="portfolio-sub"      data-en="Landing page · $300" data-es="Landing page · $300">Landing page · $300</div>
+      </div>
+    </div>
+    <div class="portfolio-item reveal reveal-delay-2">
+      <div class="portfolio-thumb"><div class="port-preview port-3">VC</div></div>
+      <div class="portfolio-info">
+        <div class="portfolio-industry" data-en="Medical"      data-es="Medicina">Medical</div>
+        <div class="portfolio-title">Vida Clínica</div>
+        <div class="portfolio-sub"      data-en="Full website · $550" data-es="Sitio completo · $550">Full website · $550</div>
+      </div>
+    </div>
+    <div class="portfolio-item reveal reveal-delay-1">
+      <div class="portfolio-thumb"><div class="port-preview port-4">BS</div></div>
+      <div class="portfolio-info">
+        <div class="portfolio-industry" data-en="Beauty"       data-es="Belleza">Beauty</div>
+        <div class="portfolio-title">Belle Salon Miami</div>
+        <div class="portfolio-sub"      data-en="Full website + booking · $800" data-es="Sitio + reservas · $800">Full website + booking · $800</div>
+      </div>
+    </div>
+    <div class="portfolio-item reveal reveal-delay-2">
+      <div class="portfolio-thumb"><div class="port-preview port-5">RT</div></div>
+      <div class="portfolio-info">
+        <div class="portfolio-industry" data-en="Real Estate"  data-es="Inmobiliaria">Real Estate</div>
+        <div class="portfolio-title">Realty Torres</div>
+        <div class="portfolio-sub"      data-en="Landing page · $300" data-es="Landing page · $300">Landing page · $300</div>
+      </div>
+    </div>
+    <div class="portfolio-item reveal reveal-delay-3">
+      <div class="portfolio-thumb"><div class="port-preview port-6">AS</div></div>
+      <div class="portfolio-info">
+        <div class="portfolio-industry" data-en="Law Firm"     data-es="Firma Legal">Law Firm</div>
+        <div class="portfolio-title">Acosta &amp; Sons Law</div>
+        <div class="portfolio-sub"      data-en="Full website · $550" data-es="Sitio completo · $550">Full website · $550</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="section-label reveal" data-en="Testimonials"   data-es="Testimonios">Testimonials</div>
+  <h2 class="section-title reveal reveal-delay-1">
+    <span data-en="What clients "   data-es="Lo que dicen ">What clients </span><span class="accent" data-en="say." data-es="los clientes.">say.</span>
+  </h2>
+  <div class="testimonials-grid">
+    <div class="testimonial-card reveal">
+      <div class="testimonial-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+      <p class="testimonial-quote" data-en="David delivered my restaurant website in just 3 days. It looks stunning and now customers can find us on Google. Best investment I've made for my business." data-es="David entregó el sitio de mi restaurante en solo 3 días. Se ve espectacular y ahora los clientes nos encuentran en Google. La mejor inversión que he hecho para mi negocio.">David delivered my restaurant website in just 3 days. It looks stunning and now customers can find us on Google. Best investment I've made for my business.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar" style="background:#4fc3f7;color:#001a2e;">MR</div>
+        <div><div class="author-name">Mario Restrepo</div><div class="author-biz">Mario's Ristorante, Miami FL</div></div>
+      </div>
+    </div>
+    <div class="testimonial-card reveal reveal-delay-1">
+      <div class="testimonial-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+      <p class="testimonial-quote" data-en="I needed a professional site for my contracting business fast. DMDesign nailed it. I've already gotten 4 new clients from the website in the first month." data-es="Necesitaba un sitio profesional para mi negocio de construcción rápido. DMDesign lo logró. Ya conseguí 4 nuevos clientes a través del sitio en el primer mes.">I needed a professional site for my contracting business fast. DMDesign nailed it. I've already gotten 4 new clients from the website in the first month.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar" style="background:#ff8c42;color:#1a0500;">JH</div>
+        <div><div class="author-name">Juan Hernandez</div><div class="author-biz">Hernandez Contracting, Texas</div></div>
+      </div>
+    </div>
+    <div class="testimonial-card reveal reveal-delay-2">
+      <div class="testimonial-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+      <p class="testimonial-quote" data-en="Very professional, fast, and the price was very fair. My clinic's website looks better than competitors who paid 3x more. I'm recommending DMDesign to everyone." data-es="Muy profesional, rápido y el precio fue muy justo. El sitio de mi clínica se ve mejor que el de competidores que pagaron 3 veces más. Recomiendo DMDesign a todos.">Very professional, fast, and the price was very fair. My clinic's website looks better than competitors who paid 3x more. I'm recommending DMDesign to everyone.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar" style="background:#69f0ae;color:#001a08;">DV</div>
+        <div><div class="author-name">Dra. Valentina Torres</div><div class="author-biz">Vida Clínica, Bogotá</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-accent"></div>
+  <div class="contact-inner">
+    <div>
+      <div class="section-label reveal" data-en="Contact" data-es="Contacto">Contact</div>
+      <h2 class="contact-tagline reveal reveal-delay-1">
+        <span data-en="Ready to get<br>your " data-es="¿Listo para tener<br>tu ">Ready to get<br>your </span><span class="accent" data-en="website?" data-es="página web?">website?</span>
+      </h2>
+      <p class="contact-sub reveal reveal-delay-2" data-en="Fill out the form or reach out directly. We'll respond within 24 hours with a custom quote for your project." data-es="Completa el formulario o contáctanos directamente. Te respondemos en menos de 24 horas con una cotización personalizada.">Fill out the form or reach out directly. We'll respond within 24 hours with a custom quote for your project.</p>
+      <div class="contact-channels reveal reveal-delay-3">
+        <a href="https://wa.me/573001234567" class="channel-link" target="_blank">
+          <div class="channel-icon">💬</div>
+          <div class="channel-info">
+            <div class="channel-name">WhatsApp</div>
+            <div class="channel-handle" data-en="+57 300 123 4567 — Fastest response" data-es="+57 300 123 4567 — Respuesta más rápida">+57 300 123 4567 — Fastest response</div>
+          </div>
+          <span class="channel-arrow">→</span>
+        </a>
+        <a href="mailto:hello@dmdesign.com" class="channel-link">
+          <div class="channel-icon">✉️</div>
+          <div class="channel-info">
+            <div class="channel-name">Email</div>
+            <div class="channel-handle">hello@dmdesign.com</div>
+          </div>
+          <span class="channel-arrow">→</span>
+        </a>
+      </div>
+    </div>
+    <div class="contact-form-wrap reveal reveal-delay-2">
+      <div class="form-title" data-en="Get a free quote"       data-es="Obtén una cotización gratis">Get a free quote</div>
+      <div class="form-sub"   data-en="Usually replied within a few hours." data-es="Normalmente respondemos en pocas horas.">Usually replied within a few hours.</div>
+      <div class="form-row">
+        <div class="form-group">
+          <label data-en="Your name"    data-es="Tu nombre">Your name</label>
+          <input type="text"  id="f-name" placeholder="John Smith">
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="you@email.com">
+        </div>
+      </div>
+      <div class="form-group">
+        <label data-en="Business type" data-es="Tipo de negocio">Business type</label>
+        <input type="text" id="f-biz" placeholder="Restaurant, salon, clinic...">
+      </div>
+      <div class="form-group">
+        <label data-en="Package interest" data-es="Paquete de interés">Package interest</label>
+        <select id="f-pkg">
+          <option data-en="Select a package"              data-es="Selecciona un paquete">Select a package</option>
+          <option data-en="Landing Page — $300"           data-es="Landing Page — $300">Landing Page — $300</option>
+          <option data-en="Business Website — $550"       data-es="Sitio de Negocio — $550">Business Website — $550</option>
+          <option data-en="Full Website + Features — $800" data-es="Sitio Completo + Funciones — $800">Full Website + Features — $800</option>
+          <option data-en="Not sure yet"                  data-es="Aún no lo sé">Not sure yet</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label data-en="Tell us about your project" data-es="Cuéntanos sobre tu proyecto">Tell us about your project</label>
+        <textarea id="f-msg" placeholder="What does your business do? Any specific features you need?"></textarea>
+      </div>
+      <button class="btn-submit" id="submit-btn" data-en="Send message →" data-es="Enviar mensaje →" onclick="handleSubmit(this)">Send message →</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <a href="#" class="footer-logo">DM<span>Design</span></a>
+  <p class="footer-copy" data-en="© 2025 DMDesign by David Marin · All rights reserved." data-es="© 2025 DMDesign por David Marin · Todos los derechos reservados.">© 2025 DMDesign by David Marin · All rights reserved.</p>
+  <div class="footer-links">
+    <a href="#services"     data-en="Services"  data-es="Servicios">Services</a>
+    <a href="#portfolio"    data-en="Work"       data-es="Portafolio">Work</a>
+    <a href="#contact"      data-en="Contact"    data-es="Contacto">Contact</a>
+  </div>
+</footer>
+
+
+</body>
+</html>
